@@ -1,0 +1,15 @@
+
+name: IITM GitHub Action Assignment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1000256@ds.study.iitm.ac.in
+        run: echo "Hello, world! GitHub Action successful."
